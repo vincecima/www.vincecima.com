@@ -1,0 +1,38 @@
+//= require vendor/bootstrap/bootstrap
+//= require vendor/bootstrap/responsive
+//= require vendor/syntax
+
+html, body {
+	font-family: 'Open Sans', sans-serif;
+}
+a {
+	color: #FF9B73;
+}
+
+a:hover, a:focus {
+	color: #FF4900;
+	text-decoration: none;
+}
+
+.container-fluid {
+	margin: 0 auto;
+	max-width: 700px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 2em;
+
+	h1 a {
+		color: #333333;
+	}
+}
+
+body.home main ul {
+	list-style-type: none;
+	margin-left: 0;
+
+	li a {
+		font-size: 1.5em;
+	}
+}

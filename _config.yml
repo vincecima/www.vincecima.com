@@ -1,0 +1,13 @@
+assets:
+  compress:
+    css:  sass
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+name: VinceCima.com
+
+pygments: true
+
+markdown: rdiscount
