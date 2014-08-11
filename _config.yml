@@ -9,5 +9,3 @@ exclude:
 name: VinceCima.com
 
 pygments: true
-
-markdown: rdiscount
