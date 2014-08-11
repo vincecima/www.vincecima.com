@@ -7,7 +7,7 @@ Recently at work we have been experimenting with using [Puma](http://puma.io/) t
 
 Assets that have been combined, minifed and gzipped by the asset pipeline are properly served directly by Apache and all other requests get proxied to Puma. Let [me know on Twitter](https://twitter.com/vincecima) if you have any questions or there is anything I can do better.
 
-{% highlight apacheconf %}
+{% highlight conf %}
 <VirtualHost *:80>
   ServerName example.com
   DocumentRoot /home/www/apps/example/public

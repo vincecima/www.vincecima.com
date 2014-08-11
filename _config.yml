@@ -8,4 +8,4 @@ exclude:
 
 name: VinceCima.com
 
-pygments: true
+highlighter: rouge
