@@ -4,9 +4,14 @@ namespace :deploy do
 	end
 
 	task :staging => [:build] do
-		`rsync -avz --delete _site/ deployer@192.168.10.12:/var/apps/www.vincecima.com`
+		sync('192.168.10.12')
 	end
 
 	task :production => [:build] do
+	end
+
+	def sync(server)
+		command = "rsync -avz --delete _site/ deployer@#{server}:/var/apps/www.vincecima.com"
+		exec command
 	end
 end
