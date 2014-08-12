@@ -1,6 +1,7 @@
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Rakefile
 
 name: VinceCima.com
 
