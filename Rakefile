@@ -8,6 +8,7 @@ namespace :deploy do
 	end
 
 	task :production => [:build] do
+		sync('arrow.vincecima.com')
 	end
 
 	def sync(server)
