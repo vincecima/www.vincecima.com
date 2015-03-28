@@ -1,0 +1,6 @@
+method: rsync
+site_dir: _site
+user: deployer@arrow.vincecima.com
+remote_path: /var/apps/www.vincecima.com
+delete: true
+flags: -avz
