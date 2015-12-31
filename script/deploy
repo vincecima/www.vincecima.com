@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+# $1 = environment
+
+bundle exec octopress deploy --config _${1:-staging}.yml
