@@ -5,7 +5,5 @@ exclude:
 
 name: VinceCima.com
 
-highlighter: rouge
-
 assets:
   css_compressor: sass
