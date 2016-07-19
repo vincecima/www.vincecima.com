@@ -1,0 +1,21 @@
+2016/03/01 Opening Balance
+  Assets:Ally Checking          $5,000.00
+  Assets:Cash on Hand           $45
+  Liabilities:Amazon Visa      -$100.00
+  Equity:Opening Balances
+
+2016/03/05 Los Pollos Hermanos
+  Expenses:Restaurants           $10
+  Liabilities:Amazon Visa       -$10
+
+2016/03/10 Los Pollos Hermanos
+  Expenses:Restaurants       $10
+  Assets:Cash on Hand       -$10
+
+2016/04/15 Balance Payment
+  Liabilities:Amazon Visa    $110
+  Assets:Ally Checking      -$110
+
+2016/07/18 Los Pollos Hermanos
+    Expenses:Restaurants              $66
+    Liabilities:Amazon Visa        $-66.0

@@ -1,7 +1,7 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-gem 'rake', '~> 10.4.2'
-gem 'jekyll', '~> 3.0.1'
-gem 'jekyll-assets', '~> 2.1.2'
-gem 'octopress', '~> 3.0.11'
+gem 'rake', '~> 11.2'
+gem 'jekyll', '~> 3.1'
+gem 'jekyll-assets', '~> 2.2'
+gem 'octopress', '~> 3.0'
