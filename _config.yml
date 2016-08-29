@@ -1,9 +1,0 @@
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Rakefile
-
-name: VinceCima.com
-
-assets:
-  css_compressor: sass

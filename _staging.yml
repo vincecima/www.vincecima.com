@@ -1,6 +1,0 @@
-method: rsync
-site_dir: _site
-user: deployer@192.168.10.12
-remote_path: /var/apps/www.vincecima.com
-delete: true
-flags: -avz
